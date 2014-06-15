@@ -39,7 +39,7 @@ public class PermMissingElem {
 
 	
 	public int solution(int[] A) {
-        long sum=0, value=0;
+        long value=0;
         int length=A.length;
         value=((length*(length+1))/2);
         for(int i=0;i<length;i++)
