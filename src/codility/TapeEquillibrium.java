@@ -51,7 +51,7 @@ public class TapeEquillibrium {
 		int [] A={3, 3, 3, 3, 3};
 		System.out.println(new TapeEquillibrium().solution(A));
 		//System.out.println(Integer.MAX_VALUE);
-		//System.out.println(Integer.MIN_VALUE);
+		System.out.println(Integer.MIN_VALUE);
 	}
 
 	
