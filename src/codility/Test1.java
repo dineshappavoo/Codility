@@ -26,7 +26,6 @@ public class Test1 {
 		int N=A.length;
 		int minValue=Integer.MAX_VALUE, maxValue=Integer.MIN_VALUE;
 		int currentLimitIndex=0, currentMax=0,maxGap=Integer.MIN_VALUE;
-
 		for(int i=0;i<N;i++)
 		{
 			if(A[i]<minValue)
