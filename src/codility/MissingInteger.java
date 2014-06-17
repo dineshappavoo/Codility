@@ -17,7 +17,7 @@ public class MissingInteger {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int [] A={-3,-2,-1,-2};
+		int [] A={1,1};
 		//int[] A={2};
 		System.out.println(new MissingInteger().solution(A));
 		//System.out.println(Integer.MIN_VALUE);
@@ -30,8 +30,8 @@ public class MissingInteger {
 		
 		int length=A.length, startingNum,minValue=Integer.MAX_VALUE, missingNum=-1;
 		HashMap<Integer, Boolean> hMap=new HashMap<Integer, Boolean>();
-		if(length==1)
-			return 1;
+		//if(length==1)
+			//return 1;
 		for(int i=0;i<length;i++)
 		{
 			hMap.put(A[i], true);
@@ -41,11 +41,13 @@ public class MissingInteger {
 			}
 		}
 		startingNum=minValue;
-		for(int j=startingNum;j<(startingNum+length);j++)
+		for(int j=startingNum;j<=(startingNum+length);j++)
 		{
 			if(!hMap.containsKey(j))
 			{
 				missingNum = j;
+				if(missingNum>0)
+					break;
 			}
 		}
 		if(missingNum==0||missingNum<0)
