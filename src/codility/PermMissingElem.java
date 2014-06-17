@@ -32,7 +32,7 @@ public class PermMissingElem {
 		Elements of input arrays can be modified.
 	 */
 	public static void main(String[] args) {
-		int [] A={1,5,3,4,2,7};
+		int [] A={1, 2, 3, 4, 5};
 		//int[] A={2};
 		System.out.println(new PermMissingElem().solution(A));
 	}
