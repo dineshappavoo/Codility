@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @author Dany
  *
  */
-public class Test1 {
+public class TInterviewQ3 {
 
 	/**
 	 * @param args
@@ -18,7 +18,7 @@ public class Test1 {
 		// TODO Auto-generated method stub
 		int [] A={10,0,8,2,-1,12,11,3};
 		//int[] A={2};
-		System.out.println(new Test1().solution(A));
+		System.out.println(new TInterviewQ3().solution(A));
 	}
 
 	public int solution(int[] A) {

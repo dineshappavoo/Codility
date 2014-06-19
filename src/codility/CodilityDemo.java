@@ -7,7 +7,7 @@ package codility;
  * @author Dany
  *
  */
-public class TestDemo {
+public class CodilityDemo {
 
 	/**
 	 * @param args
@@ -15,7 +15,7 @@ public class TestDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int [] A={3, 3, 3, 3, 3};
-		System.out.println(new TestDemo().solution(A));
+		System.out.println(new CodilityDemo().solution(A));
 
 	}
 	
