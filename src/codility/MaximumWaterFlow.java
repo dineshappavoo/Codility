@@ -16,7 +16,7 @@ public class MaximumWaterFlow {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] A={2,5,1,2,3,4,7,7,6};
+		int[] A={2,5,1,3,1,2,1,7,7,6};
 		System.out.println(new MaximumWaterFlow().solution(A));
 
 	}
