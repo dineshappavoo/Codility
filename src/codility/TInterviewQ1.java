@@ -15,7 +15,7 @@ public class TInterviewQ1 {
 	public static void main(String[] args) {
 
 		int [] A={10,0,8,2,-1,12,11,3};
-		System.out.println(new TInterviewQ1().isAnagram("BBA$$B$A"));
+		System.out.println(new TInterviewQ1().isAnagram("BBABBBBBBBBBs$$B$A"));
 	}
 	
 	public int isAnagram(String S)
