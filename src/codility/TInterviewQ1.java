@@ -15,14 +15,14 @@ public class TInterviewQ1 {
 	public static void main(String[] args) {
 
 		int [] A={10,0,8,2,-1,12,11,3};
-		System.out.println(new TInterviewQ1().isAnagram("BBABBBBBBBBBs$$B$A"));
+		System.out.println(new TInterviewQ1().isAnagram("BBs$B$"));
 	}
 	
 	public int isAnagram(String S)
 	{
 	    //To get the no of occurrences of each character and store it in their ASCII location
 	    boolean isOddLength=false;
-
+	    
 	    char c;
 	    //Array size 256 for ASCII
 	    int[] strCountArr=new int[256];
