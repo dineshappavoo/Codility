@@ -12,6 +12,9 @@ import java.util.Arrays;
  */
 public class PrefixSum {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		int A[]={3,2,1,4,5};
