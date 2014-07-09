@@ -132,4 +132,5 @@ x=-1
 x=0
 -1-1=
 
+division  by zero
 x=x*/
