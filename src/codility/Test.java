@@ -112,7 +112,12 @@ public class Test{
 
 		int totalXCount=leftXCount-rightXCount;
 		int totalNumValue=rightNumTotal-leftNumTotal;
-		int x=totalNumValue/totalXCount;
+		
+		int x=0;
+		if(totalXCount!=0)
+		{
+			x=totalNumValue/totalXCount;
+		}
 
 		return x;
 
