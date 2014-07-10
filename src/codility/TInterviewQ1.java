@@ -4,7 +4,7 @@
 package codility;
 
 /**
- * @author Dany
+ * @author Dinesh Appavoo
  *
  */
 public class TInterviewQ1 {
