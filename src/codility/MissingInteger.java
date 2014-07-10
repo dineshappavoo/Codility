@@ -6,7 +6,7 @@ package codility;
 import java.util.HashMap;
 
 /**
- * @author Dany
+ * @author Dinesh Appavoo
  *
  */
 public class MissingInteger {
