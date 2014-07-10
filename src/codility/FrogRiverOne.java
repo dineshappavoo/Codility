@@ -6,7 +6,7 @@ package codility;
 import java.util.Arrays;
 
 /**
- * @author Dany
+ * @author Dinesh Appavoo
  *
  */
 public class FrogRiverOne {
