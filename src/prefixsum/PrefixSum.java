@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 
 /**
- * @author Dany
+ * @author Dinesh Appavoo
  *
  */
 public class PrefixSum {
