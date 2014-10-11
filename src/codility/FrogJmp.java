@@ -53,4 +53,24 @@ public class FrogJmp {
         
         
     }
+	// you can also use imports, for example:
+	// import java.util.*;
+
+	// you can use System.out.println for debugging purposes, e.g.
+	// System.out.println("this is a debug message");
+
+	    public int solution1(int X, int Y, int D) {
+	        // write your code in Java SE 8
+	        
+	        int distance=Y-X;
+	        if(distance==0)
+	        	return 0;
+	        if(distance<=D)
+	            return 1;
+	        int noOfJumps=distance/D;
+	        int modVal=distance%D;
+	        if(modVal>0)
+	            noOfJumps+=1;
+	        return noOfJumps;     
+	}
 }
