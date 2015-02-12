@@ -31,46 +31,56 @@ public class FrogJmp {
 		Complexity:
 		expected worst-case time complexity is O(1);
 		expected worst-case space complexity is O(1).
-	
+
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println(new FrogJmp().solution(10, 85, 30));
+		System.out.println(new FrogJmp().solution2(10, 85, 30));
 		//System.out.println(Integer.MAX_VALUE);
 		//System.out.println(Integer.MIN_VALUE);
-		
+
 	}
 
-	
+
 	public int solution(int X, int Y, int D) {
-        // write your code in Java SE 7
+		// write your code in Java SE 7
 		int wholeValue;
 		if(X==Y)
 			return 0;
 		wholeValue=(int) Math.ceil((double)(Y-X)/D);
 		return wholeValue;
-        
-        
-    }
+
+
+	}
 	// you can also use imports, for example:
 	// import java.util.*;
 
 	// you can use System.out.println for debugging purposes, e.g.
 	// System.out.println("this is a debug message");
 
-	    public int solution1(int X, int Y, int D) {
-	        // write your code in Java SE 8
-	        
-	        int distance=Y-X;
-	        if(distance==0)
-	        	return 0;
-	        if(distance<=D)
-	            return 1;
-	        int noOfJumps=distance/D;
-	        int modVal=distance%D;
-	        if(modVal>0)
-	            noOfJumps+=1;
-	        return noOfJumps;     
+	public int solution1(int X, int Y, int D) {
+		// write your code in Java SE 8
+
+		int distance=Y-X;
+		if(distance==0)
+			return 0;
+		if(distance<=D)
+			return 1;
+		int noOfJumps=distance/D;
+		int modVal=distance%D;
+		if(modVal>0)
+			noOfJumps+=1;
+		return noOfJumps;     
+	}
+
+	public int solution2(int X, int Y, int D)
+	{
+		if (X>=Y)
+			return 0;
+		double noOfJumps = Math.ceil((double)(Y-X)/D);
+		System.out.println(noOfJumps);
+		return (int)noOfJumps;
+
 	}
 }
