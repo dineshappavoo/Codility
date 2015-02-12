@@ -1,7 +1,7 @@
 /**
  * 
  */
-package codility;
+package com.codility.lesson1;
 
 /**
  * @author Dinesh Appavoo
